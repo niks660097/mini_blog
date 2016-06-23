@@ -78,8 +78,6 @@ class Paragraph(models.Model):
 
 
 class Comment(models.Model):
-    COMMENT_TAG = '%COMMENT%'
-
     text = models.TextField()
     paragraph = models.ForeignKey('blog.Paragraph')
     created_on = models.DateTimeField()
