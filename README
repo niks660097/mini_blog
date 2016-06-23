@@ -1,6 +1,6 @@
 Api's with name(relative urls)
 
-Add blog:
+ADD BLOG:
 url - /app1/blog/
 method - post
 sample request payload(json) -
@@ -15,7 +15,7 @@ sample response -
     "blog_id": 26
 }
 
-Paginated blogs(blog list):
+PAGINATED BLOGS(blog list):
 url - /app1/blogs/ or /app1/blogs/<page_number>
 method - get
 request payload - not needed
@@ -69,7 +69,7 @@ sample response -
     "total_pages": 3
 }
 
-Blog details:
+BLOG DETAILS:
 url - /app1/blog/<blog_id>/
 method - post
 sample request payload - not needed.
@@ -108,7 +108,7 @@ sample response -
     }
 }
 
-Add comments:
+ADD COMMENTS:
 url - /app1/blog/paragraph/<paragraph_id>/comment/
 method - post
 sample request payload(json) -
