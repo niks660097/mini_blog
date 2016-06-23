@@ -85,8 +85,7 @@ sample response -
                     9<paragraph_id>
                 ],
                 [<comments_array(orderd by date)>
-                    "salty comments again",
-                    "salty comments"
+                    "salty comment",
                 ]
             ],
             [
